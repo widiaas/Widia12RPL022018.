@@ -30,7 +30,9 @@ dependencies {
     implementation 'com.intuit.ssp:ssp-android:1.0.6'
     implementation 'androidx.recyclerview:recyclerview:1.1.0-alpha03'
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
-//    implementation 'androidx.cardview:cardview'
+    implementation 'androidx.cardview:cardview:1.0.0'
+  
+
 
 
     testImplementation 'junit:junit:4.12'

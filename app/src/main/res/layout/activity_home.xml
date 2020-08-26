@@ -19,7 +19,7 @@
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"/>
         <Button
-                android:text="Sewa"
+                android:text="Profil"
                 android:textColor="#fff"
                 android:layout_marginTop="@dimen/_8sdp"
                 android:layout_alignParentRight="true"
@@ -29,21 +29,11 @@
                 android:layout_height="@dimen/_23sdp"/>
     </RelativeLayout>
 
-    <LinearLayout
-            android:layout_gravity="center_horizontal"
-            android:layout_width="@dimen/_265sdp"
-            android:layout_height="match_parent">
-        <GridView
-                android:id="@+id/gridVw"
-                android:numColumns="2"
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/dataList"
+                android:layout_gravity="center_horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-
-
-        </GridView>
-
-    </LinearLayout>
+                android:layout_height="match_parent"/>
 
 
 </LinearLayout>

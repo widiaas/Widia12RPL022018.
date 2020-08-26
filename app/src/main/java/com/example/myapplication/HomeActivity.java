@@ -9,14 +9,52 @@ import android.widget.GridView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class HomeActivity extends AppCompatActivity {
+
+    RecyclerView dataList;
+    List<String> titles;
+    List<String> prices;
+    List<Integer> images;
+    Adapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
         setContentView(R.layout.activity_home);
+        dataList = findViewById(R.id.dataList);
+
+        titles = new ArrayList<>();
+        images = new ArrayList<>();
+        prices = new ArrayList<>();
+
+        titles.add("Pacific satu");
+        titles.add("Pacific dua");
+        titles.add("Pacific tiga");
+        titles.add("Pacific empat");
+
+        prices.add("5000");
+        prices.add("8000");
+        prices.add("7000");
+        prices.add("9000");
+
+        images.add(R.drawable.pacificoriblue);
+        images.add(R.drawable.bromptonrodaor);
+        images.add(R.drawable.pacificorblack);
+        images.add(R.drawable.pacificputihbiru);
+
+        adapter = new Adapter(this,titles,images,prices);
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this,2,GridLayoutManager.VERTICAL,false);
+        dataList.setLayoutManager(gridLayoutManager);
+        dataList.setAdapter(adapter);
+
+
 
     }
 }
