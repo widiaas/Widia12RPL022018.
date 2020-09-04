@@ -8,12 +8,11 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-
     <LinearLayout
             android:gravity="center_horizontal"
             android:layout_gravity="center_vertical"
             android:orientation="vertical"
-            android:layout_marginBottom="@dimen/_40sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -30,7 +29,8 @@
                 android:orientation="vertical"
                 android:layout_height="wrap_content">
             <TextView
-                    android:text="Username"
+                    android:id="@+id/regEmail"
+                    android:text="Email"
                     android:textColor="#9997dd"
                     android:paddingBottom="@dimen/_5sdp"
                     android:textSize="@dimen/_10sdp"
@@ -49,27 +49,29 @@
                 android:orientation="vertical"
                 android:layout_height="wrap_content">
             <TextView
-                    android:text="Emial"
-                    android:textColor="#9997dd"
-                    android:paddingBottom="@dimen/_5sdp"
-                    android:textSize="@dimen/_10sdp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            <EditText
-                    android:textColor="#9997dd"
-                    android:background="@drawable/edittext"
-                    android:layout_width="@dimen/_220sdp"
-                    android:layout_height="@dimen/_35sdp"/>
-        </LinearLayout>
-
-        <LinearLayout
-                android:layout_gravity="center_horizontal"
-                android:layout_width="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:orientation="vertical"
-                android:layout_height="wrap_content">
-            <TextView
+                    android:id="@+id/regPassword"
                     android:text="Password"
+                    android:textColor="#9997dd"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <EditText
+                    android:textColor="#9997dd"
+                    android:background="@drawable/edittext"
+                    android:layout_width="@dimen/_220sdp"
+                    android:layout_height="@dimen/_35sdp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/regNama"
+                    android:text="Nama"
                     android:textColor="#9997dd"
                     android:paddingBottom="@dimen/_5sdp"
                     android:textSize="@dimen/_10sdp"
@@ -83,7 +85,68 @@
                     android:layout_height="@dimen/_35sdp"/>
         </LinearLayout>
 
+        <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/regHp"
+                    android:text="Nomor Handphone"
+                    android:textColor="#9997dd"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <EditText
+                    android:background="@drawable/edittext"
+                    android:layout_width="@dimen/_220sdp"
+                    android:layout_height="@dimen/_35sdp"/>
+        </LinearLayout>
 
+        <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/regAlamat"
+                    android:text="Alamat"
+                    android:textColor="#9997dd"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <EditText
+                    android:textColor="#9997dd"
+                    android:background="@drawable/edittext"
+                    android:layout_width="@dimen/_220sdp"
+                    android:layout_height="@dimen/_35sdp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/regKtp"
+                    android:text="No Ktp"
+                    android:textColor="#9997dd"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <EditText
+                    android:inputType="textPassword"
+                    android:textColor="#9997dd"
+                    android:background="@drawable/edittext"
+                    android:layout_width="@dimen/_220sdp"
+                    android:layout_height="@dimen/_35sdp"/>
+        </LinearLayout>
 
         <LinearLayout
                 android:layout_gravity="center_horizontal"
@@ -94,6 +157,7 @@
                 android:layout_height="wrap_content">
 
             <Button
+                    android:id="@+id/btnRegister"
                     android:shadowColor="@null"
                     android:background="@drawable/btnregister"
                     android:layout_width="@dimen/_55sdp"
@@ -103,7 +167,8 @@
                     android:textColor="#fff"
                     android:layout_height="@dimen/_25sdp"/>
             <TextView
-                    android:onClick="login"
+                    android:id="@+id/orLogin"
+                    android:onClick="orLogin"
                     android:textColor="#838383"
                     android:layout_marginLeft="@dimen/_10sdp"
                     android:text="Sudah Punya akun?"

@@ -1,10 +1,12 @@
 package com.example.myapplication;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.GridView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,12 +25,15 @@ public class HomeActivity extends AppCompatActivity {
     List<Integer> images;
     Adapter adapter;
 
+    Button btn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
         setContentView(R.layout.activity_home);
         dataList = findViewById(R.id.dataList);
+        btn = findViewById(R.id.btnprofil);
 
         titles = new ArrayList<>();
         images = new ArrayList<>();
@@ -54,7 +59,10 @@ public class HomeActivity extends AppCompatActivity {
         dataList.setLayoutManager(gridLayoutManager);
         dataList.setAdapter(adapter);
 
+    }
 
-
+    public void btnprofil(View view){
+        Intent intent = new Intent(HomeActivity.this,DetailActivity.class);
+        startActivity(intent);
     }
 }

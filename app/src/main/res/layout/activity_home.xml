@@ -19,6 +19,8 @@
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"/>
         <Button
+                android:id="@+id/btnprofil"
+                android:onClick="btnprofil"
                 android:text="Profil"
                 android:textColor="#fff"
                 android:layout_marginTop="@dimen/_8sdp"

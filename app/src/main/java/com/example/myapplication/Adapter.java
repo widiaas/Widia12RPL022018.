@@ -24,8 +24,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         this.prices = prices;
         this.images = images;
         this.inflater = LayoutInflater.from(ctx);
-
-
     }
     @NonNull
     @Override
