@@ -37,7 +37,7 @@ public class Config {
 
         //public static final String BASE_URL = " http://98102f27.ngrok.io/gma5/";
         //public static final String BASE_URL = "http://192.168.43.107/gma5/";
-        public static final String BASE_URL = "http://192.168.6.236/rentalsepeda/";
+        public static final String BASE_URL = "http://192.168.6.233:8000/api/";
 
         private static final String API = "api/";
         public static final String BASE_URL_API = BASE_URL + API;
@@ -132,10 +132,10 @@ public class Config {
         public static final String SHARED_PREF_TAG_TOKEN = "SHARED_PREF_TAG_TOKEN";
 
         public static final String RESPONSE_STATUS_FIELD = "STATUS";
-        public static final String RESPONSE_STATUS_VALUE_SUCCESS = "SUCCESS";
+        public static final String RESPONSE_STATUS_VALUE_SUCCESS = "Succes Login";
         public static final String RESPONSE_STATUS_VALUE_ERROR = "ERROR";
-        public static final String RESPONSE_MESSAGE_FIELD = "MESSAGE";
-        public static final String RESPONSE_PAYLOAD_FIELD = "PAYLOAD";
+        public static final String RESPONSE_MESSAGE_FIELD = "message";
+        public static final String RESPONSE_PAYLOAD_FIELD = "data";
 
         public static final String ERROR_NETWORK = "Periksa kembali jaringan Anda";
 
@@ -194,16 +194,16 @@ public class Config {
 
         public static final String EVENT_BUS_RELOAD = "EB_RELOAD";
 
-        public static boolean isNetworkAvailable(Context ctx) {
-            ConnectivityManager cm = (ConnectivityManager) ctx.getSystemService(Context.CONNECTIVITY_SERVICE);
-            NetworkInfo networkInfo = cm.getActiveNetworkInfo();
-            // if no network is available networkInfo will be null
-            // otherwise check if we are connected
-            if (networkInfo != null && networkInfo.isConnected()) {
-                return true;
-            }
-            return false;
-        }
+//        public static boolean isNetworkAvailable(Context ctx) {
+//            ConnectivityManager cm = (ConnectivityManager) ctx.getSystemService(Context.CONNECTIVITY_SERVICE);
+//            NetworkInfo networkInfo = cm.getActiveNetworkInfo();
+//            // if no network is available networkInfo will be null
+//            // otherwise check if we are connected
+//            if (networkInfo != null && networkInfo.isConnected()) {
+//                return true;
+//            }
+//            return false;
+//        }
 
         public static void forceLogout(Context context) {
             //Getting out shared preferences
