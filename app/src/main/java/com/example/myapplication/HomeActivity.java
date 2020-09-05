@@ -29,7 +29,7 @@ public class HomeActivity extends AppCompatActivity {
     Adapter adapter;
 
     Button btn;
-   boolean sd;
+   boolean sds;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
