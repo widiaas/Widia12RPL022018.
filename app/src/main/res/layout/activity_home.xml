@@ -21,7 +21,7 @@
         <Button
                 android:id="@+id/btnprofil"
                 android:onClick="btnprofil"
-                android:text="Profil"
+                android:text="Detil"
                 android:textColor="#fff"
                 android:layout_marginTop="@dimen/_8sdp"
                 android:layout_alignParentRight="true"

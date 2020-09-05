@@ -29,7 +29,7 @@
                 android:orientation="vertical"
                 android:layout_height="wrap_content">
             <TextView
-                    android:id="@+id/regEmail"
+
                     android:text="Email"
                     android:textColor="#9997dd"
                     android:paddingBottom="@dimen/_5sdp"
@@ -37,6 +37,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             <EditText
+                   android:id="@+id/regEmail"
                     android:background="@drawable/edittext"
                     android:layout_width="@dimen/_220sdp"
                     android:layout_height="@dimen/_35sdp"/>
@@ -49,7 +50,7 @@
                 android:orientation="vertical"
                 android:layout_height="wrap_content">
             <TextView
-                    android:id="@+id/regPassword"
+
                     android:text="Password"
                     android:textColor="#9997dd"
                     android:paddingBottom="@dimen/_5sdp"
@@ -57,6 +58,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             <EditText
+                android:id="@+id/regPassword"
                     android:textColor="#9997dd"
                     android:background="@drawable/edittext"
                     android:layout_width="@dimen/_220sdp"
@@ -70,7 +72,7 @@
                 android:orientation="vertical"
                 android:layout_height="wrap_content">
             <TextView
-                    android:id="@+id/regNama"
+
                     android:text="Nama"
                     android:textColor="#9997dd"
                     android:paddingBottom="@dimen/_5sdp"
@@ -78,6 +80,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             <EditText
+                android:id="@+id/regNama"
                     android:inputType="textPassword"
                     android:textColor="#9997dd"
                     android:background="@drawable/edittext"
@@ -92,7 +95,7 @@
                 android:orientation="vertical"
                 android:layout_height="wrap_content">
             <TextView
-                    android:id="@+id/regHp"
+
                     android:text="Nomor Handphone"
                     android:textColor="#9997dd"
                     android:paddingBottom="@dimen/_5sdp"
@@ -100,6 +103,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             <EditText
+                android:id="@+id/regHp"
                     android:background="@drawable/edittext"
                     android:layout_width="@dimen/_220sdp"
                     android:layout_height="@dimen/_35sdp"/>
@@ -112,7 +116,7 @@
                 android:orientation="vertical"
                 android:layout_height="wrap_content">
             <TextView
-                    android:id="@+id/regAlamat"
+
                     android:text="Alamat"
                     android:textColor="#9997dd"
                     android:paddingBottom="@dimen/_5sdp"
@@ -120,6 +124,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             <EditText
+                android:id="@+id/regAlamat"
                     android:textColor="#9997dd"
                     android:background="@drawable/edittext"
                     android:layout_width="@dimen/_220sdp"
@@ -133,7 +138,7 @@
                 android:orientation="vertical"
                 android:layout_height="wrap_content">
             <TextView
-                    android:id="@+id/regKtp"
+
                     android:text="No Ktp"
                     android:textColor="#9997dd"
                     android:paddingBottom="@dimen/_5sdp"
@@ -141,6 +146,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             <EditText
+                android:id="@+id/regKtp"
                     android:inputType="textPassword"
                     android:textColor="#9997dd"
                     android:background="@drawable/edittext"
