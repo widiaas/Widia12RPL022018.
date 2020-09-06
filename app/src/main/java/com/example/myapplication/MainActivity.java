@@ -129,6 +129,4 @@ Log.d("YZD", "respon : " + role);
         startActivity(intent);
     }
 
-
-
 }

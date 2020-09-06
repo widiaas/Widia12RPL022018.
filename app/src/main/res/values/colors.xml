@@ -3,4 +3,9 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackground">#1EA2E9</color>
+    <color name="colorEmail">#239997DD</color>
+    <color name="peach">#FFA777</color>
+    <color name="peach2">#FF9961</color>
+    <color name="peach3">#ED5B0B</color>
 </resources>

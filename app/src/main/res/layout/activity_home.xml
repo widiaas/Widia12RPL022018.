@@ -13,11 +13,13 @@
             android:layout_marginTop="@dimen/_16sdp"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_50sdp">
+
         <ImageView
-                android:src="@drawable/logo"
-                android:layout_marginLeft="@dimen/_20sdp"
-                android:layout_width="@dimen/_40sdp"
-                android:layout_height="@dimen/_40sdp"/>
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_-20sdp"
+            android:src="@drawable/squidward" />
+
         <Button
                 android:id="@+id/btnprofil"
                 android:onClick="btnprofil"
@@ -25,7 +27,7 @@
                 android:textColor="#fff"
                 android:layout_marginTop="@dimen/_8sdp"
                 android:layout_alignParentRight="true"
-                android:background="@drawable/btnregister"
+                android:background="@color/peach3"
                 android:layout_marginRight="@dimen/_20sdp"
                 android:layout_width="@dimen/_60sdp"
                 android:layout_height="@dimen/_23sdp"/>

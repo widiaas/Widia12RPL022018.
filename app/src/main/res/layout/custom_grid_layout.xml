@@ -21,7 +21,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/_18ssp"
                 android:id="@+id/imgvw"
-                tools:srcCompat="@tools:sample/avatars"
+                tools:srcCompat="@drawable/squidward"
                 android:layout_width="@dimen/_120sdp"
                 android:layout_height="@dimen/_80sdp"/>
         <TextView
@@ -55,7 +55,7 @@
                    android:text="Sewa"
                    android:textSize="@dimen/_8sdp"
                    android:textColor="#fff"
-                   android:background="@drawable/bgregister"
+                   android:background="@color/peach3"
                    android:layout_width="@dimen/_50ssp"
                    android:layout_height="@dimen/_25ssp"/>
            </RelativeLayout>
