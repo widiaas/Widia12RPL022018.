@@ -21,7 +21,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/_18ssp"
                 android:id="@+id/imgvw"
-                tools:srcCompat="@drawable/squidward"
+                tools:srcCompat="@drawable/sepeda"
                 android:layout_width="@dimen/_120sdp"
                 android:layout_height="@dimen/_80sdp"/>
         <TextView

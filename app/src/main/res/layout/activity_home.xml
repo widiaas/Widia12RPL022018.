@@ -18,7 +18,7 @@
             android:layout_width="88dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="@dimen/_-20sdp"
-            android:src="@drawable/squidward" />
+            android:src="@drawable/sepeda" />
 
         <Button
                 android:id="@+id/btnprofil"
