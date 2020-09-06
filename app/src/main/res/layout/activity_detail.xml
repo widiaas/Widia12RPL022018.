@@ -51,7 +51,7 @@
          <ImageView
                  android:layout_marginTop="@dimen/_20sdp"
                  android:id="@+id/detailgmspd"
-                 android:background="@drawable/sepeda"
+                 android:background="@drawable/sepedawidia"
                  android:layout_gravity="center_horizontal"
                  android:layout_width="@dimen/_235sdp"
                  android:layout_height="@dimen/_180sdp"/>
@@ -107,7 +107,7 @@
 
                  <TextView
                          android:id="@+id/detailmerk"
-                         android:text="Larva"
+                         android:text="Sepeda"
                          android:textColor="#6c757d"
                          android:textSize="@dimen/_13sdp"
                          android:layout_width="wrap_content"
@@ -119,7 +119,7 @@
                          android:textSize="@dimen/_13sdp"
                          android:id="@+id/detailkode"
                          android:layout_below="@id/detailmerk"
-                         android:text="VI74"
+                         android:text="MM93"
                          android:layout_marginTop="@dimen/_8sdp"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
@@ -128,7 +128,7 @@
                          android:textSize="@dimen/_13sdp"
                          android:id="@+id/detailwarna"
                          android:layout_below="@id/detailkode"
-                         android:text="Red"
+                         android:text="Purple"
                          android:layout_marginTop="@dimen/_8sdp"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
@@ -144,7 +144,7 @@
         android:textColor="#fff"
         android:text="Lanjutkan"
         android:layout_marginTop="@dimen/_10sdp"
-        android:background="@color/peach3"
+        android:background="@color/purple"
         android:layout_gravity="center"
         android:layout_width="@dimen/_280sdp"
         android:layout_height="@dimen/_35sdp"/>
